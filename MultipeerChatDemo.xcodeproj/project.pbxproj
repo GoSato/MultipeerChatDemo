@@ -14,6 +14,7 @@
 		C72A1D961C062EB800A3DBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72A1D941C062EB800A3DBB0 /* LaunchScreen.storyboard */; };
 		C72A1DA11C062EB800A3DBB0 /* MultipeerChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A1DA01C062EB800A3DBB0 /* MultipeerChatDemoTests.swift */; };
 		C72A1DAC1C062EB800A3DBB0 /* MultipeerChatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A1DAB1C062EB800A3DBB0 /* MultipeerChatDemoUITests.swift */; };
+		C72A1DBA1C062EF500A3DBB0 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72A1DB91C062EF500A3DBB0 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C72A1DA71C062EB800A3DBB0 /* MultipeerChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72A1DAB1C062EB800A3DBB0 /* MultipeerChatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatDemoUITests.swift; sourceTree = "<group>"; };
 		C72A1DAD1C062EB800A3DBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72A1DB91C062EF500A3DBB0 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72A1DBA1C062EF500A3DBB0 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		C72A1D7F1C062EB800A3DBB0 = {
 			isa = PBXGroup;
 			children = (
+				C72A1DB91C062EF500A3DBB0 /* MultipeerConnectivity.framework */,
 				C72A1D8A1C062EB800A3DBB0 /* MultipeerChatDemo */,
 				C72A1D9F1C062EB800A3DBB0 /* MultipeerChatDemoTests */,
 				C72A1DAA1C062EB800A3DBB0 /* MultipeerChatDemoUITests */,
