@@ -84,7 +84,7 @@ MCSessionDelegate {
         if(text != ""){
             // Add the name to the message and display it
             let message = "\(name): \(text)\n"
-            self.chatView.text = self.chatView.text + message
+            self.chatView.text = message + self.chatView.text
         }
     }
     
